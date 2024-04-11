@@ -1073,6 +1073,11 @@ module "openai" {
   target_repository = "${var.target_repository}/openai"
 }
 
+module "openfire" {
+  source            = "./images/openfire"
+  target_repository = "${var.target_repository}/openfire"
+}
+
 module "opensearch" {
   source            = "./images/opensearch"
   target_repository = "${var.target_repository}/opensearch"

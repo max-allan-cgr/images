@@ -1,0 +1,11 @@
+name: openfire
+image: cgr.dev/chainguard/openfire
+logo: https://www.igniterealtime.org/images/logo_openfire.png
+endoflife: ""
+console_summary: ""
+short_description: XMPP server.
+compatibility_notes: ""
+readme_file: README.md
+upstream_url: https://github.com/igniterealtime/openfire
+keywords:
+  - XMPP
